@@ -1,0 +1,90 @@
+:root {
+    --white: #F2F2F2;
+    --accent: #dca530;
+    --hover: #fcc650;
+    --dark: #181413;
+    --pop: #6c2f38;
+}
+
+.menu img{
+    width: 2rem;
+}
+/* Universal Styles */
+
+body {
+    background-color: var(--white);
+}
+
+h1 {
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.tagline{
+    color: var(--white);
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: var(--pop);
+    padding: 0.5rem;
+    position: sticky;
+    top: -6.5rem;
+    z-index: 1;
+}
+
+nav {
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+nav ul {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+nav a {
+    color: var(--white);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.sign-in li:first-of-type{
+    margin-right: 1rem;
+}
+
+.menu {
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+section {
+    margin: 0 auto;
+    max-width: 960px;
+    justify-content: center;
+}
+
+section p:first-child {
+    margin-top: 1rem;
+}
+
+section p {
+    padding: 1rem;
+}
